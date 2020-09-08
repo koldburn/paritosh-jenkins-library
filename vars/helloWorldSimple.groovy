@@ -1,4 +1,4 @@
 #!/usr/bin/env groovy
-def call(Map config = [:]) {
+def call(String name, String dayOfWeek) {
   echo "Hello World ${config.name}. It is ${config.dayOfWeek}."
 }
