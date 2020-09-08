@@ -1,6 +1,6 @@
-#!/usr/bin/env groovy
-
-import org.jenkinsci.plugins.pipeline.modeldefinition.Utils
+ libraries {
+     lib('pipeline-library-demo')
+ }
 
 @Library('shared-library') _
 pipeline {
