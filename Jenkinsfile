@@ -5,7 +5,7 @@ pipeline{
   stages{
     stage('check'){
       steps{
-        hello(name:'batman', city:'gotham', day:'monday')
+        helloWorld(name: "Fred", dayOfWeek: "Friday")
       }
     }
   }
