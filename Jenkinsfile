@@ -1,11 +1,12 @@
-@Library('shared-library') _
-pipeline {
+@Library('shared-library)_
+
+pipeline{
   agent any
-  stages {
-    stage('hello') {
-      steps {
-        helloWorldSimple("Fred", "Friday")
+  stages{
+    stage('check'){
+      steps{
+        helloworld('batman', 'monday')
       }
     }
   }
-}
+}  
