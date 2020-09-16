@@ -1,5 +1,5 @@
 #! /bin/bash
 
-def call(Map config = [:]){
-    echo "hello ${config.name}, from ${config.city} this is $[config.day}"
+def call(Map config = [:]) {
+  echo "Hello World ${config.name}. It is ${config.dayOfWeek}."
 }
